@@ -900,7 +900,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingOrder: 511
   m_Sprite: {fileID: 21300010, guid: 2bd08737ed0f44a9b87386dc2953a060, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: .178000003}
 --- !u!50 &848101004
 Rigidbody2D:
   serializedVersion: 2
@@ -928,7 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a59c705a922194e45b605e2bd57f7e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 19
   rigidBody: {fileID: 848101004}
 --- !u!235 &848101006
 WheelJoint2D:
