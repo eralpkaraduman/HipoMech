@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 2bd08737ed0f44a9b87386dc2953a060
-timeCreated: 1440628058
+timeCreated: 1440642182
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -20,6 +20,9 @@ TextureImporter:
     21300026: hipo_sprite_7
     21300028: hipo_sprite_8
     21300030: hipo_sprite_9
+    21300032: hipo_axis
+    21300034: hipo_joint
+    21300036: hipo_leg_frame
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -222,6 +225,36 @@ TextureImporter:
         y: 0
         width: 128
         height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hipo_axis
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 421
+        width: 147
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hipo_joint
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 420
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: hipo_leg_frame
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 349
+        width: 42
+        height: 63
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
